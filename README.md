@@ -22,16 +22,16 @@ A lightweight command line tool written in Go that mimics the Unix `wc` (word co
 
 2. Count lines in a program:
     Count lines in a file:
-    ./bin/wc-mini -l test.txt
+    ./bin/ccwc -l test.txt
 
     Count words in a file:
-    ./bin/wc-mini -w test.txt
+    ./bin/ccwc -w test.txt
     
     Count characters in a file:
-    ./bin/wc-mini -c test.txt
+    ./bin/ccwc -c test.txt
 
 ### Get a summary of lines, words, and characters for multiple files:
-./bin/wc-mini file1.txt file2.txt
+./bin/ccwc file1.txt file2.txt
 
 ### Clean build artifacts:
 ```bash

@@ -1,6 +1,6 @@
 # Variables
-APP_NAME = wc-mini
-SRC_FILES = main.go
+APP_NAME = ccwc
+SRC_FILES = ccwc.go
 BUILD_DIR = ./bin
 OUTPUT = $(BUILD_DIR)/$(APP_NAME)
 

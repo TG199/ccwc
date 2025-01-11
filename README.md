@@ -30,10 +30,11 @@ A lightweight command line tool written in Go that mimics the Unix `wc` (word co
     Count characters in a file:
     ./bin/wc-mini -c test.txt
 
-Get a summary of lines, words, and characters for multiple files:
+### Get a summary of lines, words, and characters for multiple files:
 ./bin/wc-mini file1.txt file2.txt
 
-Clean build artifacts:
+### Clean build artifacts:
+```bash
 make clean
 
 Testing:
